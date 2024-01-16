@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Encryption\Encryption.csproj" />
+    <ProjectReference Include="..\Modelos.Datos\Modelos.Datos.csproj" />
+    <ProjectReference Include="..\Unidad.Trabajo\Unidad.Trabajo.csproj" />
+  </ItemGroup>
+
+</Project>

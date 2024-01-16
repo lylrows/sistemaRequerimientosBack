@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="3.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso.Datos\Acceso.Datos.csproj" />
+    <ProjectReference Include="..\Logica.Negocio\Logica.Negocio.csproj" />
+    <ProjectReference Include="..\SGRManagement.Efictec\SGRManagement.Efictec.csproj" />
+    <ProjectReference Include="..\Unidad.Trabajo\Unidad.Trabajo.csproj" />
+  </ItemGroup>
+
+</Project>
